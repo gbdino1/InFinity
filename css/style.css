@@ -1,0 +1,149 @@
+:root { 
+    --background-color: #CCCCCC;
+    --backgrounditens-color: #C7C6C6;
+    --blue1-color: #00009E;
+    --blue2-color: #1C2DCA;
+    --blue3-color: #05055C;
+    --red-color: #A80C0C;
+    --green1-color: #2EB019;
+    --green2-color: #324913;
+    --gray-color: #545454;
+    --yellow-color: #B8AB3D;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+}
+
+body {
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: var(--blue1-color);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 32px;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin-bottom: auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.foto-perfil {
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.boasvindas {
+    margin-left: 1rem;
+    color: white;
+}
+
+.boasvindas h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.boasvindas p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+main {
+    flex: 1;
+    padding: 1rem;
+}
+
+.vida-financeira {
+    box-shadow: 1px 1px 1px 2px var(--black-color);;
+    background-color: var(--backgrounditens-color);
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.graficos {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.grafico i {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-left: 1.5rem;
+
+}
+
+.opcoes-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.opcoes {
+    box-shadow: 1px 1px 1px 2px var(--black-color);
+    background-color: var(--backgrounditens-color);
+    flex: 1 1 calc(50% - 1rem);
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.maiores-altas { 
+    box-shadow: 1px 1px 1px 2px var(--black-color);
+    background-color: var(--backgrounditens-color);
+    display:flex;
+    flex-direction: column;
+    float: left;
+    border-radius: 8px;
+    padding: 0.5rem;
+    text-align: center;
+}
+.maiores-altas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.maiores-altas li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+footer {
+    background-color: var(--blue1-color);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 50px;
+    margin-top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul a i {
+    color: var(--white-color);
+}
