@@ -35,6 +35,7 @@ header {
     align-content: space-between;
     margin-bottom: auto;
     font-family: "Roboto", sans-serif;
+    box-shadow: 2px 2px 4px 1px var(--blue2-color);
 }
 
 .header-container {
@@ -58,12 +59,14 @@ header {
 
 .boasvindas h1 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.5rem;  
+    font-weight: initial;
 }
 
 .boasvindas p {
     margin: 0;
     font-size: 1rem;
+    font-weight: 65;
 }
 
 main {
@@ -72,18 +75,20 @@ main {
 }
 
 .vida-financeira {
-    box-shadow: 1px 1px 1px 2px var(--black-color);
-    ;
+    box-shadow: 2px 2px 4px 0.85px var(--gray-color);
     background-color: var(--backgrounditens-color);
     margin-bottom: 1.5rem;
     border-radius: 8px;
     text-align: center;
+    font-weight: lighter;
 }
 
-.vida-financeira h2{
+.vida-financeira h2 {
     margin: 0.5rem;
     padding: 0.5rem;
+    color: var(--blue3-color);
 }
+
 .graficos {
     display: flex;
     justify-content: space-between;
@@ -107,7 +112,7 @@ main {
 }
 
 .opcoes {
-    box-shadow: 1px 1px 1px 2px var(--black-color);
+    box-shadow: 2px 2px 4px 0.85px var(--gray-color);
     background-color: var(--backgrounditens-color);
     flex: 1 1 calc(50% - 1rem);
     padding: 1rem;
@@ -115,8 +120,24 @@ main {
     text-align: center;
 }
 
+.investimento {
+    color: var(--blue1-color);
+}
+
+.fontes-receitas {
+    color: var(--green2-color);
+}
+
+.metas {
+    color: var(--yellow-color);
+}
+
+.gastos {
+    color: var(--red-color);
+}
+
 .maiores-altas {
-    box-shadow: 1px 1px 1px 2px var(--black-color);
+    box-shadow: 2px 2px 4px 0.85px var(--gray-color); 
     background-color: var(--backgrounditens-color);
     border-radius: 8px;
     padding: 0.5rem;
@@ -125,7 +146,9 @@ main {
 
 .maiores-altas h2 {
     display: flex;
-    margin: 2%;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: var(--blue3-color);
 }
 
 .maiores-altas ul {
@@ -138,8 +161,13 @@ main {
     padding: 0.5rem;
 }
 
+.maiores-altas li p {
+    color: var(--green1-color);
+}
+
 footer {
     background-color: var(--blue1-color);
+    box-shadow: 2px 2px 4px 1px var(--blue2-color);
     padding: 1rem;
     margin: 1rem;
     border-radius: 50px;
